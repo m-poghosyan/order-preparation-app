@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#gridContainer {
+    height: 440px;
+}
+
+.dx-field{
+    width: 20%;
+}
+.dx-field-value{
+    float: none;
+
+}
+.dx-field-value:not(.dx-switch):not(.dx-checkbox):not(.dx-button), .dx-field-value-static{
+    width: 100%;
+}
+.react-bootstrap-daterangepicker-container{
+    display: block !important;
+}
+.search{
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    right: 10px;
+}
+
+.dx-datagrid-rowsview .dx-select-checkboxes-hidden > tbody > tr > td > .dx-select-checkbox{
+    display: block;
+}
+.site_field{
+    width: 200px;
+}
+.cart_item_count strong{
+    font-size: 18px;
+}
+
+
+
+.siteSelect{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.siteSelect > .card{
+    width: 100%;
+}
+.siteSelect .dx-fieldset{
+    margin: 10px;
+    width: 300px;
+
+}
+.siteSelect .dx-field{
+    width: 100%;
+}
+.siteSelect .sel_title, .siteSelect .cart_info {
+    display: flex;
+    align-items: center;
+}
+
+.cart_content{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+
+}
+
+.cart_content p{
+    margin: 0 5px;
+}
+
+.cart_content p:nth-child(2){
+    width: 50%;
+}
+.cart_content p:nth-child(2){
+    text-align: left;
+}
+.ant-collapse-content-box{
+    padding: 0 !important;
+}
+.checkout_btn{
+    transition: .3s;
+}
+.checkout_btn:hover{
+    background: #666 !important;
+    color: #fff !important;
+}
+
+.btn:focus, .btn.focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.total{
+    font-size: 20px;
+
+}
+.price{
+    font-size: 16px;
+}
+.ant-collapse-header{
+    font-size: 18px;
+    padding-right: 45px !important;
+}
+.crtcnt{
+    max-height: 350px;
+    overflow-y: auto;
+
+}
+
+
+.ant-calendar-picker-clear, .ant-calendar-picker-icon{
+    top: 43%;
+    right: 6px;
+}
+
+.ant-btn > .anticon{
+    vertical-align: middle;
+    line-height: 0;
+}
+
+.ant-modal-footer{
+    background: #1d252d;
+}
+
+.ant-radio-group{
+    display: block;
+}
+.ant-radio-wrapper{
+    display: block;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    transition: .2s;
+}
+
+.ant-radio-wrapper:hover{
+    background: #e8eff6;
+}
+.ant-modal-body{
+    padding: 0;
+}
+
+.ant-input-number-handler-wrap{
+    opacity: 1;
+}
+.MuiTab-textColorInherit.Mui-selected{
+    outline: none;
+}
+.ant-select{
+    display: block;
+}
+
+.ant-modal-body{
+    max-height: 700px;
+    overflow-y: auto;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+    padding: 3px 16px;
+}
